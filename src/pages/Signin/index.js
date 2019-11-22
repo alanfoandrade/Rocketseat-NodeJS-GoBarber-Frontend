@@ -3,5 +3,5 @@ import React from 'react';
 // import { Container } from './styles';
 
 export default function Signin() {
-  return <div />;
+  return <h1>SIGNIN</h1>;
 }
