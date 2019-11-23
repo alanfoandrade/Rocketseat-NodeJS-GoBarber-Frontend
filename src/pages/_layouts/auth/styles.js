@@ -17,7 +17,7 @@ export const Content = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
 
     input {
       background: rgba(0, 0, 0, 0.1);
@@ -26,15 +26,22 @@ export const Content = styled.div`
       height: 44px;
       padding: 0 15px;
       color: #fff;
-      margin: 0 0 10px;
+      margin: 10px 0 0;
 
       &::placeholder {
         color: rgba(255, 255, 255, 0.7);
       }
     }
 
-    button {
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
       margin: 5px 0 0;
+      font-weight: bold;
+    }
+
+    button {
+      margin: 15px 0 0;
       height: 44px;
       background: #3b9eff;
       font-weight: bold;
