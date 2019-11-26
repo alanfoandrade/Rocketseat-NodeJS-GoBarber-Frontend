@@ -1,9 +1,9 @@
 import React from 'react';
-
 import { Link } from 'react-router-dom';
 
-import logo from '~/assets/images/logo-purple.svg';
+import Notifications from '../Notifications';
 
+import logo from '~/assets/images/logo-purple.svg';
 import { Container, Content, Profile } from './styles';
 
 export default function Header() {
@@ -17,6 +17,8 @@ export default function Header() {
         </nav>
 
         <aside>
+          <Notifications />
+
           <Profile>
             <div>
               <strong>Alan Andrade</strong>
