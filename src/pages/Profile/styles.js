@@ -12,7 +12,7 @@ export const Container = styled.div`
     margin-top: 20px;
 
     input {
-      background: rgba(0, 0, 0, 0.1);
+      background: rgba(0, 0, 0, 0.15);
       border: 0;
       border-radius: 4px;
       height: 44px;

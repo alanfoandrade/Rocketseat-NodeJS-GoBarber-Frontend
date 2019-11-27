@@ -60,7 +60,7 @@ export const Notification = styled.div`
   & + div {
     margin-top: 15px;
     padding-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   p {

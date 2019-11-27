@@ -20,7 +20,7 @@ export const Container = styled.div`
     strong {
       color: #fff;
       font-size: 24px;
-      margin: 0 15px;
+      margin: 0 15px 4px;
     }
   }
 
@@ -37,18 +37,18 @@ export const Time = styled.li`
   border-radius: 4px;
   background: #fff;
 
-  opacity: ${props => (props.past ? 0.6 : 1)};
+  opacity: ${props => (props.past ? 0.5 : 1)};
 
   strong {
     display: block;
-    color: ${props => (props.available ? '#999' : '#7159c1')};
-    font-size: 20px;
+    color: ${props => (props.available ? '#bbb' : '#7159c1')};
+    font-size: 22px;
     font-weight: normal;
   }
 
   span {
     display: block;
     margin-top: 3px;
-    color: ${props => (props.available ? '#999' : '#666')};
+    color: ${props => (props.available ? '#bbb' : '#666')};
   }
 `;
